@@ -37,8 +37,8 @@ statement = (Statement) connection.createStatement();
 //statement.execute("INSERT INTO FIRSTTABLE VALUES (10,'TEN'),(20,'TWENTY'),(30,'THIRTY')");
 resultSet = statement.executeQuery("SELECT * FROM FIRSTTABLE");
 
-String currentID = "";
-String currentName = "";
+String currentID = "app";
+String currentName = "app";
 System.out.println("ID NAME");
 System.out.println("==========");
 while(resultSet.next()){
