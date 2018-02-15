@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE users SYSTEM "Users.dtd">
+<!-- users XML file with their cnp, names and passwords
+-->
+
+<users>
+    <user>
+        <cnp>2730912293111</cnp>
+        <name>nico</name>
+        <password>pass1</password>
+    </user>
+    <user>
+        <cnp>1601502783159</cnp>
+        <name>leta</name>
+        <password>pass2</password>
+    </user>
+    <user>
+        <cnp>2770707100141</cnp>
+        <name>alya</name>
+        <password>pass3</password>
+    </user>        
+</users>
