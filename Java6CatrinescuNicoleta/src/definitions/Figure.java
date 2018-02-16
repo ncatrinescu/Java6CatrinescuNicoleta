@@ -1,18 +1,21 @@
 /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+ * Plane figures definitions
  */
 package definitions;
 
-/**
+/**Class Figure - the super class of all figures
  *
  * @author Amastasia
  */
+
+// Figure class, parent of Circle, Triangle, Square, Rectangle
 public class Figure {
     
+    // String constant to hold the common part for all figures definitions
     private static final String DEFINITION = "a plane figure ";
-    public String getDefinitions(){
+    
+    // Method returning DEFINITION    
+    public String getDefinition(){
             return DEFINITION;
-    }
+    } 
 }
